@@ -1,0 +1,44 @@
+.box {
+    border: 1px solid #333;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.sec {
+  margin-top: 10px;
+}
+html, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+.float-wrap {
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+.ul-h {
+  overflow: hidden;
+}
+.ul-h li {
+  float: left;
+  margin: 0 10px;
+}
+.layout-main-side .left {
+  width: 1000px;
+}
+.layout-main-side .right {
+  width: 190px;
+  margin-left: 10px;
+}
